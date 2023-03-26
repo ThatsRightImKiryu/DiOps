@@ -5,6 +5,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'ruby --version'
+                sh 'exit'
                 sh 'cat /etc/os-release'
             }
         }
